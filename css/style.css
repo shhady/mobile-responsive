@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+    /* margin: 0; */
+    /* padding: 0; */
+}
+.box{
+    display: inline-block;
+    border: 3px solid black;
+    width: 24%;
+    margin-bottom: 5px;
+    /* float: left; */
+}
+
+@media (max-width : 768px) {
+.box {
+float: none;
+width: 100%;
+}
+}
